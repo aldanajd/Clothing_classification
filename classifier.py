@@ -5,7 +5,7 @@ subprocess.check_call(["pip", "install", "tensorflow"])
 
 import streamlit as st
 import numpy as np
-
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 from PIL import Image
 
