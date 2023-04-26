@@ -6,7 +6,7 @@ from PIL import Image
 
 
 c = os.getcwd()
-f = list(os.walk(os.getcwd()))[0]
+f = list(os.walk(os.getcwd()))[0][1]
 d = os.path.join(c, f)
 
 #Load the pre-trained model
