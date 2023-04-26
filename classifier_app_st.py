@@ -4,12 +4,12 @@ import os
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-c = os.getcwd()
-d = os.path.join(c, 'model')
+#c = os.getcwd()
+#d = os.path.join(c, 'model')
 
-st.write(d)
+#st.write(d)
 #Load the pre-trained model
-classifier_model = load_model(d)
+classifier_model = load_model("/app/clothing_classifier/model")
 
 #Define the categories to match the output of the pre-trained model
 classifier_dictionary = {
