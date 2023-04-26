@@ -6,25 +6,8 @@ from PIL import Image
 
 
 c = os.getcwd()
-f = list(os.walk(os.getcwd()))
-#d = os.path.join(c, f)
-st.write(c)
-st.write(f)
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write(f[0])
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write('h')
-st.write(f[0][1])
+
+d = os.path.join(c, 'model')
+
 #Load the pre-trained model
-#classifier_model = load_model(d)
+classifier_model = load_model(d)
