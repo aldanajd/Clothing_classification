@@ -1,1 +1,4 @@
-st.write(list(os.walk(os.getcwd())))
+import os
+
+l = list(os.walk(os.getcwd()))
+st.write(l)
