@@ -7,6 +7,7 @@ from PIL import Image
 c = os.getcwd()
 d = os.path.join(c, 'model')
 
+st.write(d)
 #Load the pre-trained model
 classifier_model = load_model(d)
 
