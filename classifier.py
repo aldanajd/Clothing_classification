@@ -1,3 +1,8 @@
+import subprocess
+
+# Install tensorflow package
+subprocess.check_call(["pip", "install", "tensorflow"])
+
 import streamlit as st
 import numpy as np
 
