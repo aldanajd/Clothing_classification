@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 #Load the pre-trained model
-classifier_model = load_model(r'/Clothing_classification/tree/main/Model')
+classifier_model = load_model("/Clothing_classification/tree/main/Model")
 
 #Define the categories to match the output of the pre-trained model
 classifier_dictionary = {
