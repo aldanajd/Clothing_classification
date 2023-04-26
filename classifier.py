@@ -1,7 +1,6 @@
-#import os
+import os
 
-#l = list(os.walk(os.getcwd()))
-#st.write(l)
+l = list(os.walk(os.getcwd()))
 
 import streamlit as st
 
@@ -12,4 +11,4 @@ st.set_page_config(page_title="Print Hello")
 st.title("Welcome to My Streamlit App!")
 
 # Print "hello" in Streamlit
-st.write("hello")
+st.write(l)
