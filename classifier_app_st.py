@@ -1,7 +1,7 @@
 import streamlit as st
 
-f = os.getcwd()
-st.write(f)
+#f = os.getcwd()
+#st.write(f)
 
 l = list(os.walk(os.getcwd()))
 
