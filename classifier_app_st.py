@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 #Load the pre-trained model
-classifier_model = load_model("/model")
+classifier_model = load_model("/model/")
 
 #Define the categories to match the output of the pre-trained model
 classifier_dictionary = {
