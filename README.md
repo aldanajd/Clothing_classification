@@ -1,6 +1,6 @@
 # Clothing_classifier
 
-![Link to Web Application](https://aldanajd-clothing-classifier-classifier-app-st-mu353i.streamlit.app/)
+[Link to Web Application](https://aldanajd-clothing-classifier-classifier-app-st-mu353i.streamlit.app/)
 
 
 ![](https://github.com/aldanajd/Clothing_classifier/blob/main/images/cf.png)
